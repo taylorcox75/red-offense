@@ -1,0 +1,21 @@
+{
+  "name": "red-offense",
+  "description": "Hack Arizona 2017",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:taylorcox75/red-offense.git"
+  },
+  "main": "index",
+  "dependencies": {
+    "ar-drone": "0.2.0",
+    "buffy": "0.0.5",
+    "keypress": "^0.2.1",
+    "nodemon": "^1.8.1",
+    "video.js": "^5.4.6",
+    "ws": "~0.4.27"
+  },
+  "author": "Red-Offense",
+  "license": "MIT",
+  "gitHead": "657213a52d5e9c19b85df6a42f76341a98c08ae8"
+}
