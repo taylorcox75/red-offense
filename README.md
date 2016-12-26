@@ -7,11 +7,11 @@
 1. Connect to the default ar-drone wifi network on a computer
 2. Open terminal (mac/ubuntu) or [cygwin](https://cygwin.com/install.html) (windows)
 
-    ```
+    
     telnet 192.168.1.1
     cd bin
     vi wifi_setup.sh
-    ```
+    
     
 3. Add the below code snippet anywhere in that file, but:
   1. Replace MyNetwork with your Wi-Fi network's name
