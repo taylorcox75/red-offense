@@ -1,8 +1,9 @@
-Team-Red: Hack Arizona 2017 Offensive
+# Team-Red: Hack Arizona 2017 Offensive
 
-# **General Parrot Drone Information:**
+## **General Parrot Drone Information:**
 ----------
-# To Connect the Drone to a SSID:
+<details>
+<summary>To Connect the Drone to a SSID:</summary>
 1. Connect to the default ar-drone wifi network on a computer
 2. Open terminal (mac/ubuntu) or [cygwin](https://cygwin.com/install.html) (windows)
 
@@ -24,15 +25,17 @@ Team-Red: Hack Arizona 2017 Offensive
 
 5. Ping $ip.address and you should get a response!
 
+</details>
 ----------
-# Sending/Receiving Commands and Video
+<details>
+<summary>Sending/Receiving Commands and Video</summary>
 
 Notes: 
 
 1. Have [node.js](https://nodejs.org/en/) installed.  
 2. Will work with any UNIX based terminal (Used a Mac for these steps).
 
-## Control + Camera
+Control + Camera
 1. Open terminal and navigate to the examples/ folder of this repository
     npm install
   1. The npm package dependencies should download to node_modules (Roughly 29 MB).
@@ -54,8 +57,11 @@ Notes:
    
    `localhost:5555`
 
+----------
+<details>
+<summary>Flight Controls</summary>
 
-## Flight Controls (From server.js terminal window):
+From server.js terminal window:
 
 **Space Bar:** Takeoff/Land
 
@@ -74,9 +80,11 @@ Notes:
 **P:** Right Flip
 
 **X:** STOP AND HOVER *useful for out of control drones*
-
+</details>
+</details>
 ----------
-## Standalone Camera Access
+<details>
+<summary>Standalone Camera Access</summary>
 
 *99% similar setup as above*
 
@@ -102,5 +110,6 @@ Notes:
 5. To View Camera in Web-Browser on Current Machine
     
     `localhost:5555`
-## 
+
+</details>
 
